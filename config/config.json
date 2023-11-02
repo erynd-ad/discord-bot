@@ -1,0 +1,59 @@
+{
+    "name": "OutSense",
+    "mongo": {
+        "uri": "mongodb+srv://zerilogy:3Wve8a4VR8vpsS5e@out-sense.qcni2pq.mongodb.net/?retryWrites=true&w=majority"
+    },
+    "bot": {
+        "token": "ODUwMTgzODQxMDAyODE1NDk4.GxYmOT.8_dEqNP8uwsalsEGWecCIkwEVaYXqyT6-K_cg0",
+        "guildid": "829376223985532988",
+        "icon": "https://media.discordapp.net/attachments/852834586026835989/1169416382207758506/OIG_1.png?ex=655552e0&is=6542dde0&hm=d5a618d274a1617c326371cac1871ded60e75f0907a24f02c866e8ce610fd5dc&=&width=565&height=565",
+        "design": {
+            "banner": "https://media.discordapp.net/attachments/920802167852515368/1169433346087067688/standard.gif?ex=655562ac&is=6542edac&hm=9a27a99507d7b2cd3e0573151d2f11279fd00655621eb982bbe5eaa5a6a158d7&=&width=374&height=48",
+            "color": "7D00FF",
+            "line-default": "",
+            "line-green": "",
+            "line-red": ""
+        },
+        "channels": {
+            "lff": "1049385688530960386",
+            "suggest": "1049385817610665984",
+            "devlog": "1049385837445513297",
+            "logs": "1049385470628466728",
+            "join": "1049386617237942332",
+            "categories": {
+                "tickets": "953400589222555669"
+            }
+        },
+        "logs": {
+            "enabled": true
+        },
+        "roles": {
+            "user": "953340696260145162",
+            "staff": "953340678929281056",
+            "headstaff": "953340673690595378",
+            "media": {
+                "partner": "953340681563308042",
+                "famous": "953340684956479548",
+                "youtuber": "953340685833076756",
+                "miniyoutuber": "953340686927802398",
+                "streamer": "953340682553147493"
+            },
+            "auto": {
+                "spoilers": "953345764485136426",
+                "giveaways": "953345892541431928",
+                "events": "953346099513544726"
+            }
+        },
+        "presence": {
+            "enabled": true,
+            "interval": "10s",
+            "type": "PLAYING",
+            "activities": [
+                "I see a %members% members on the network !",
+                "Supporting %tickets% tickets !",
+                "The network ip is SOON",
+                "Get support on teamspeak3 @ SOON"
+            ]
+        }
+    }
+}

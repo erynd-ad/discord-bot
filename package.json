@@ -1,0 +1,21 @@
+{
+  "name": "outsense-bot",
+  "version": "1.0.0",
+  "description": "A custom bot for outsense",
+  "main": "index.js",
+  "scripts": {
+    "start": "node --no-warnings index.js"
+  },
+  "author": "D2SIADO",
+  "license": "ISC",
+  "dependencies": {
+    "@discordjs/builders": "^1.6.5",
+    "@discordjs/rest": "^2.0.1",
+    "chalk": "^4.1.2",
+    "discord-html-transcripts": "^2.6.0",
+    "discord.js": "^13.9.0",
+    "glob": "^7.2.0",
+    "mongoose": "^6.5.2",
+    "ms": "^2.1.3"
+  }
+}
